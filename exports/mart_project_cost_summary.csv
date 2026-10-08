@@ -1,0 +1,2 @@
+project_id,project_name,location,area_m2,budget_cost,actual_cost,committed_cost,certified_amount,paid_amount,remaining_budget,cost_variance,approved_variations,variation_pct,actual_cost_per_m2,revised_budget
+PRJ-001,Riverside Community Clinic,Nairobi,1850.0,31978500.0,28410000.0,32350000.0,15750000.0,13800000.0,3568500.0,-3568500.0,1205000.0,0.037681567303031724,15356.756756756757,33183500.0

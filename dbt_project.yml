@@ -1,0 +1,12 @@
+name: construction_cost
+version: '1.0.0'
+config-version: 2
+profile: construction_cost
+model-paths: [models]
+clean-targets: [target, dbt_packages]
+models:
+  construction_cost:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

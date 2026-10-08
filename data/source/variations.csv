@@ -1,0 +1,4 @@
+variation_id,work_package_id,description,status,raised_date,amount
+VAR-001,WP-001,Additional ground improvement,approved,2025-06-18,425000
+VAR-002,WP-002,Facade specification change,approved,2025-11-04,780000
+VAR-003,WP-003,Optional standby generator,pending,2026-01-16,650000

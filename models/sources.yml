@@ -1,0 +1,74 @@
+version: 2
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: projects
+      - name: work_packages
+      - name: boq
+      - name: purchases
+      - name: valuations
+      - name: payments
+      - name: variations
+models:
+  - name: stg_projects
+    columns:
+      - name: project_id
+        tests: [not_null, unique]
+  - name: stg_work_packages
+    columns:
+      - name: work_package_id
+        tests: [not_null, unique]
+      - name: project_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_projects')
+              field: project_id
+  - name: stg_boq
+    columns:
+      - name: boq_line_id
+        tests: [not_null, unique]
+      - name: work_package_id
+        tests:
+          - relationships:
+              to: ref('stg_work_packages')
+              field: work_package_id
+      - name: budget_amount
+        tests: [not_null]
+  - name: stg_purchases
+    columns:
+      - name: purchase_id
+        tests: [not_null, unique]
+      - name: work_package_id
+        tests:
+          - relationships:
+              to: ref('stg_work_packages')
+              field: work_package_id
+  - name: stg_valuations
+    columns:
+      - name: valuation_id
+        tests: [not_null, unique]
+      - name: work_package_id
+        tests:
+          - relationships:
+              to: ref('stg_work_packages')
+              field: work_package_id
+  - name: stg_payments
+    columns:
+      - name: payment_id
+        tests: [not_null, unique]
+      - name: valuation_id
+        tests:
+          - relationships:
+              to: ref('stg_valuations')
+              field: valuation_id
+  - name: stg_variations
+    columns:
+      - name: variation_id
+        tests: [not_null, unique]
+      - name: work_package_id
+        tests:
+          - relationships:
+              to: ref('stg_work_packages')
+              field: work_package_id

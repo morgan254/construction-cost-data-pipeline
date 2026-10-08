@@ -1,0 +1,6 @@
+valuation_id,project_id,work_package_id,work_package_name,valuation_number,certification_date,certified_amount,paid_amount,outstanding_amount,last_payment_date,payment_lag_days
+VAL-001,PRJ-001,WP-001,Substructure,1,2025-04-30,1800000.0,1800000.0,0.0,2025-05-20,20
+VAL-002,PRJ-001,WP-001,Substructure,2,2025-07-31,1450000.0,1000000.0,450000.0,2025-09-05,36
+VAL-003,PRJ-001,WP-002,Frame and envelope,1,2025-09-30,4500000.0,4500000.0,0.0,2025-10-28,28
+VAL-004,PRJ-001,WP-002,Frame and envelope,2,2025-12-31,5200000.0,4000000.0,1200000.0,2026-02-12,43
+VAL-005,PRJ-001,WP-003,Mechanical and electrical,1,2026-02-28,2800000.0,2500000.0,300000.0,2026-03-25,25

@@ -1,0 +1,7 @@
+purchase_id,work_package_id,supplier_id,supplier_name,order_date,order_amount,invoiced_amount,status
+PO-001,WP-001,SUP-001,Metro Aggregates,2025-02-03,950000,910000,partially_invoiced
+PO-002,WP-001,SUP-002,Eastland Concrete,2025-03-18,2700000,2450000,partially_invoiced
+PO-003,WP-002,SUP-003,BuildFrame Kenya,2025-05-12,6800000,6200000,partially_invoiced
+PO-004,WP-002,SUP-004,Roofline Supplies,2025-07-09,8800000,8400000,partially_invoiced
+PO-005,WP-003,SUP-005,Integrated MEP Ltd,2025-09-22,9200000,7350000,partially_invoiced
+PO-006,WP-003,SUP-006,Power and Light Co,2025-10-02,3900000,3100000,partially_invoiced

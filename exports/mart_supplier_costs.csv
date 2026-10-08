@@ -1,0 +1,7 @@
+supplier_id,supplier_name,committed_cost,actual_cost,purchase_order_count
+SUP-002,Eastland Concrete,2700000.0,2450000.0,1
+SUP-006,Power and Light Co,3900000.0,3100000.0,1
+SUP-003,BuildFrame Kenya,6800000.0,6200000.0,1
+SUP-004,Roofline Supplies,8800000.0,8400000.0,1
+SUP-005,Integrated MEP Ltd,9200000.0,7350000.0,1
+SUP-001,Metro Aggregates,950000.0,910000.0,1

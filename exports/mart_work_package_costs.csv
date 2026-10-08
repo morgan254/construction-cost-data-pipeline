@@ -1,0 +1,4 @@
+project_id,work_package_id,work_package_name,budget_cost,actual_cost,committed_cost,certified_amount,approved_variations,revised_budget,remaining_budget,cost_variance,variation_pct
+PRJ-001,WP-001,Substructure,4178500.0,3360000.0,3650000.0,3250000.0,425000.0,4603500.0,818500.0,-818500.0,0.1017111403613737
+PRJ-001,WP-002,Frame and envelope,17330000.0,14600000.0,15600000.0,9700000.0,780000.0,18110000.0,2730000.0,-2730000.0,0.04500865551067513
+PRJ-001,WP-003,Mechanical and electrical,10470000.0,10450000.0,13100000.0,2800000.0,0.0,10470000.0,20000.0,-20000.0,0.0

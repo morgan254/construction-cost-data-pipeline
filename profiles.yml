@@ -1,0 +1,8 @@
+construction_cost:
+  target: local
+  outputs:
+    local:
+      type: duckdb
+      path: warehouse/construction_cost.duckdb
+      schema: main
+      threads: 1
